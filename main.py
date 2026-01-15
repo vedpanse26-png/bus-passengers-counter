@@ -1,9 +1,5 @@
 import cv2
-import pandas as pd
-from ultralytics import YOLO
-from tracker import*
-import cvzone
-import numpy as np
+from ultralytics import YOLO hii
 
 
 
@@ -69,4 +65,4 @@ while True:
     if cv2.waitKey(1)&0xFF==27:
         break
 cap.release()
-cv2.destroyAllWindows()
+cv2.destroyAllWindowsAllWindows()
